@@ -35,5 +35,11 @@ img:hover{
   text-align: end;
 }
 button:active{
-  background-color: rgb(103, 103, 247) !important;
+  background-color: rgb(7, 78, 28) !important;
+}
+
+.notInterested:hover{
+    background-color: chocolate !important;
+    transform:translateX(10px);
+    transition: .5s;
 }

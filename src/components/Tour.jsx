@@ -38,7 +38,7 @@ const Tour = ({tour , removeTour}) => {
                       {info.slice(0, 200)}...
                       <button
                         onClick={handleClick}
-                        className='border-0 fs-6 text-primary bg-white'
+                        className='border-0 fs-6 text-success bg-white'
                       >
                         Read More
                       </button>
@@ -50,16 +50,16 @@ const Tour = ({tour , removeTour}) => {
                       {info}
                       <button
                         onClick={handleClick}
-                        className='border-0 bg-white fs-6 text-primary'
+                        className='border-0 bg-white fs-6 text-success'
                       >
                         Show Less
                       </button>
                     </p>
                   </div>
                 )}
-                <div className='text-center mt-3'>
+                <div className='text-center mt-3 '>
                   <button
-                    className='bg-danger text-light rounded-3 p-1 notInterested'
+                    className='bg-primary text-light rounded-3 p-1 notInterested'
                     onClick={() => removeTour(id)}
                   >
                     Not Interested

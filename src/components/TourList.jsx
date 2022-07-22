@@ -50,10 +50,9 @@ const TourList = () => {
           <h1>No Tours Left</h1>
           <div>
             <button
-              className='bg-danger text-light rounded-3 p-2 px-4 notInterested'
+              className='bg-success text-light rounded-3 p-2 px-4 notInterested'
               onClick={handleRefresh}
             >
-              {" "}
               Refresh
             </button>
           </div>
