@@ -1,7 +1,7 @@
 [https://our-tours-with-react-project.vercel.app/](https://our-tours-with-react-project.vercel.app/)
 
 <br>
-[Click here to see the project](https://our-tours-with-react-project.vercel.app/)
+
 
 <br>
 
